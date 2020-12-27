@@ -5,7 +5,7 @@
   "license": "MIT",
   "description": "OAuth client for GitHub",
   "engines": {
-    "node": "15.x"
+    "node": "15.4.x"
   },
   "main": "out/index.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "@octokit/auth-oauth-app": "^3.0.7"
   },
   "devDependencies": {
-    "@types/hapi__boom": "^9.0.1",
     "@types/hapi__hapi": "^20.0.3",
     "@types/node": "^14.14.16",
     "@types/node-fetch": "^2.5.7",
