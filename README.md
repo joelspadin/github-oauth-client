@@ -9,8 +9,8 @@ your client secrets secret.
 ## Usage
 
 For each [GitHub OAuth App](https://github.com/settings/developers), set an
-environment variable whose name is the client ID and whose value is the
-corresponding client secret (in Heroku this is done with
+environment variable whose name is `SECRET_` followed by the client ID and whose
+value is the corresponding client secret (in Heroku this is done with
 **Settings > Config Vars** in your app dashboard).
 
 You can also set a `PORT` variable to change the port used. If not set, it will
