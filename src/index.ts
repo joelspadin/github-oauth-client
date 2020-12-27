@@ -20,7 +20,7 @@ async function init() {
                 throw Boom.badRequest();
             }
 
-            const clientSecret = process.env[clientId];
+            const clientSecret = process.env[`SECRET_${clientId}`];
 
             if (!clientSecret) {
                 throw Boom.notFound(`No secret set for client ID "${clientId}"`);
