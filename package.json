@@ -9,9 +9,10 @@
   },
   "main": "out/index.js",
   "scripts": {
+    "start": "node out/index.js",
     "postinstall": "tsc",
     "watch:ts": "tsc --watch",
-    "watch:node": "nodemon dist/index.js",
+    "watch:node": "nodemon out/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
