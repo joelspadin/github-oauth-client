@@ -1,0 +1,7 @@
+{
+  "name": "GitHub OAuth Client",
+  "description": "A server to allow serverless applications to authenticate with GitHub",
+  "website": "https://github.com/joelspadin/github-oauth-client",
+  "repository": "https://github.com/joelspadin/github-oauth-client",
+  "keywords": ["node", "github", "oauth"]
+}
